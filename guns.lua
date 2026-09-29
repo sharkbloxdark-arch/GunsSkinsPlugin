@@ -3,7 +3,7 @@
 local shared = odh_shared_plugins
 
 -- Step 1: Create your Tab
-local guns_skins_tab = shared.CreateTab("Guns Skins", "/sharkbloxdark-arch/GunsSkinsPlugin/refs/heads/main/icon")
+local guns_skins_tab = shared.CreateTab("Guns Skins", "/sharkbloxdark-arch/GunsSkinsPlugin/refs/heads/main/Gunsicon")
 
 -- Step 2: Create your Section
 local customs_section = guns_skins_tab:AddSection("Weapon Customs", "SKIN SELECTION & COLOR")
@@ -11,7 +11,7 @@ local customs_section = guns_skins_tab:AddSection("Weapon Customs", "SKIN SELECT
 -- Step 3: Add UI Elements
 
 -- [1] Credits Label
-customs_section:AddLabel("Plugin Created by You")
+customs_section:AddLabel("Plugin Created by Grave")
 
 -- [2] Weapon Selection Dropdown
 local selected_gun = "AWP"
